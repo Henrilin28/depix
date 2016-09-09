@@ -1,7 +1,6 @@
-# kiwi-webapp01
+# Bootstrap PHOTON
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+AngularJS Bootstrap with the PHOTON template from http://html5up.net
 
 ## Build & development
 
