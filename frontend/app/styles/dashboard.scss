@@ -1,0 +1,42 @@
+button.md-fa-button {
+  min-width: 30px;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+md-toolbar .md-toolbar-tools {
+  & h1, h2, h3, .fa {
+    color: #fff;
+  }
+
+}
+
+md-sidenav {
+  .user-avatar img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+  }
+  md-toolbar.md-tall {
+    min-height: 165px;
+    max-height: 165px;
+    height: 165px;
+  }
+}
+
+md-fab-toolbar {
+  .md-button md-icon {
+    color: #fff;
+    padding: 0;
+    margin: auto;
+    line-height: 25px;
+  }
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 7px;
+  width: 100%;
+}
