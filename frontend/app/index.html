@@ -9,6 +9,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <!-- build:css(.) styles/vendor.css -->
   <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:css(.tmp) styles/main.css -->
@@ -24,7 +25,7 @@
 
 <div ui-view="navigation">
 </div>
-<div ui-view="content">
+<div ui-view="content" flex>
 </div>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -52,6 +53,7 @@
 <script src="bower_components/skel/src/skel.js"></script>
 <script src="bower_components/jquery-scrolly/jquery.scrolly.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-material/angular-material.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -60,9 +62,13 @@
 <script src="scripts/main.js"></script>
 
 <script src="modules/app.module.js"></script>
+<script src="modules/app.config.js"></script>
 <script src="modules/app.routes.js"></script>
 
 <script src="modules/home/home.controller.js"></script>
+<script src="modules/layout/navbar.controller.js"></script>
+<script src="modules/dashboard/sidebar.controller.js"></script>
+<script src="modules/dashboard/dashboard.controller.js"></script>
 <!-- endbuild -->
 </body>
 </html>
